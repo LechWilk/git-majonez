@@ -1,0 +1,72 @@
+  822  mkdir git-majonez
+  823  cd git-majonez/
+  824  git init
+  825  touch main.cpp
+  826  nano main.cpp
+  827  git add main.cpp
+  828  git status\
+  829  git commit -m"Initial commit"
+  830  nano main.cpp 
+  831  fg
+  832  git add main.cpp 
+  833  git commit -m"Farewell changed"
+  834  git log --oneline
+  835  gitk
+  836  git remote add origin https://github.com/LechWilk/git-majonez.git
+  837  git push --help
+  838  git branch
+  839  git push -u origin master
+  840  git log
+  841  git reset c8ed08739f53d16ecfe6246670df74c56acd23c3
+  842  git checkout -b cs
+  843  git show
+  844  gitk &
+  845  less main.cpp 
+  846  git status
+  847  git add .
+  848  nano main.cpp 
+  849  git add .
+  850  git commit -m"Greetings"
+  851  git show
+  852  git push origin cs
+  853  less main.cpp 
+  854  gir checkout master
+  855  git checkout master
+  856  git merge cs
+  857  git log --oneline --graph
+  858  git log --pretty=oneline --graph
+  859  git reflog
+  860  git reset ce76ee2
+  861  git log
+  862  git branch
+  863  git reflog
+  864  git reset c8ed087
+  865  git log
+  866  git branch
+  867  git status
+  868  less main.cpp 
+  869  git add .
+  870  git pull
+  871  git log
+  872  git status
+  873  git reset c8ed08739f53d16ecfe6246670df74c56acd23c3
+  874  git reset HEAD
+  875  git status
+  876  less main.cpp 
+  877  git checkout --file main.cpp
+  878  git checkout -- main.cpp
+  879  less main.cpp 
+  880  git status
+  881  git pull
+  882  git status
+  883  git log
+  884  git branch
+  885  git merge cs
+  886  nano main.cpp 
+  887  git add .
+  888  git commit
+  889  git status
+  890  git show
+  891  git branch
+  892  history
+  893  history | tail -n +822 > history.txt
